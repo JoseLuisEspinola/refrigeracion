@@ -317,18 +317,16 @@ nav.abajo .checkbtn {
 }
 
 .sociales a {
-    padding: 0 4px;
-    /* display: inline-block; */
     display: flex;
     color: #54aafa;
-    margin-top: 4px;
+    margin: 4px 10px 0 0;
 }
 
 .linkedin, .github, .facebook, .whatsapp {
     width: 22px;
     height: 22px;
     border-radius: 50px;
-    margin-right: 6px;
+    margin-right: 4px;
     transition: 0.5s;
 }
 

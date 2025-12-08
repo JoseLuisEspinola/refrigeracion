@@ -6,6 +6,7 @@
     --color02: #028DFF;
     --color03: #909ac1;
     --color04: #ffffff;
+    --color05: #eef4fb;
 }
 
 * {
@@ -264,7 +265,7 @@ nav.abajo .checkbtn {
     padding-bottom: 70px;
     max-width: 100%;
     /* height: auto; */
-    background-color: var(--color01);
+    background-color: var(--color05);
 }
 
 .title-nosotros {
@@ -290,7 +291,7 @@ nav.abajo .checkbtn {
 }
 
 .descripcion {
-    color: var(--color04);
+    color: var(--color01);
     font-size: clamp(1rem, 1.6vw, 1.2rem);
     line-height: 1.6;
 }
@@ -304,7 +305,7 @@ nav.abajo .checkbtn {
 .container-firma {
     display: inline-block;
     overflow: hidden;
-    border-right: 2px solid var(--color01);
+    border-right: 2px solid var(--color05);
     white-space: nowrap;
 }
 
@@ -317,7 +318,7 @@ nav.abajo .checkbtn {
 
     /* efecto de escribir */
     display: inline-block;
-    width: 26ch;     /* 10 caracteres */
+    width: 26ch;     /* 26 caracteres */
     animation: typeCycle 14s steps(26) infinite;
 }
 
@@ -381,18 +382,16 @@ nav.abajo .checkbtn {
 }
 
 .sociales a {
-    padding: 0 4px;
-    /* display: inline-block; */
     display: flex;
     color: #54aafa;
-    margin-top: 4px;
+    margin: 4px 10px 0 0;
 }
 
 .linkedin, .github, .facebook, .whatsapp {
     width: 22px;
     height: 22px;
     border-radius: 50px;
-    margin-right: 6px;
+    margin-right: 4px;
     transition: 0.5s;
 }
 

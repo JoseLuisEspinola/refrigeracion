@@ -5,6 +5,7 @@
     --color02: #028DFF;
     --color03: #909ac1;
     --color04: #ffffff;
+    --color05: #eef4fb;
 }
 
 * {
@@ -263,7 +264,7 @@ nav.abajo .checkbtn {
     padding-bottom: 30px;
     max-width: 100%;
     height: auto;
-    background-color: var(--color01);
+    background-color: var(--color05);
     position: relative;
 }
 
@@ -302,7 +303,7 @@ nav.abajo .checkbtn {
 }
 
 .descripcion {
-    color: var(--color04);
+    color: var(--color01);
     font-size: clamp(0.9rem, 1.6vw, 1rem);
     line-height: 1.6;
 }
@@ -346,7 +347,7 @@ hr {
     padding: 50px 6px 60px;
     max-width: 100%;
     height: auto;
-    background-color: var(--color01);
+    background-color: var(--color05);
     margin: 0 auto;
 }
 
@@ -433,18 +434,16 @@ hr {
 }
 
 .sociales a {
-    padding: 0 4px;
-    /* display: inline-block; */
     display: flex;
     color: #54aafa;
-    margin-top: 4px;
+    margin: 4px 10px 0 0;
 }
 
 .linkedin, .github, .facebook, .whatsapp {
     width: 22px;
     height: 22px;
     border-radius: 50px;
-    margin-right: 6px;
+    margin-right: 4px;
     transition: 0.5s;
 }
 

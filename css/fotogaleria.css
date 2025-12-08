@@ -5,6 +5,7 @@
     --color02: #028DFF;
     --color03: #909ac1;
     --color04: #ffffff;
+    --color05: #eef4fb;
 }
 
 * {
@@ -258,7 +259,7 @@ nav.abajo .checkbtn {
     padding-bottom: 30px;
     max-width: 100%;
     height: auto;
-    background-color: var(--color01);
+    background-color: var(--color05);
     position: relative;
 }
 
@@ -267,8 +268,6 @@ nav.abajo .checkbtn {
     justify-content: center;
     align-items: center;
     font-size: clamp(2.4rem, 3vw, 3rem);
-    /* margin: 0 auto 20px; */
-
     color: var(--color02);
 }
 
@@ -358,18 +357,16 @@ nav.abajo .checkbtn {
 }
 
 .sociales a {
-    padding: 0 4px;
-    /* display: inline-block; */
     display: flex;
     color: #54aafa;
-    margin-top: 4px;
+    margin: 4px 10px 0 0;
 }
 
 .linkedin, .github, .facebook, .whatsapp {
     width: 22px;
     height: 22px;
     border-radius: 50px;
-    margin-right: 6px;
+    margin-right: 4px;
     transition: 0.5s;
 }
 
