@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="Imagen/jpg" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/nosotros.css">
+    <title>Refrigeración</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Incluir la biblioteca de ScrollReveal --> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!-- Barra de navegacion o NavBar -->
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <<a href="#" class="enlace">
+            <img src="./img/logo-removebg-preview.png" class="logo" alt="Imagen Logo">
+            <div class="names">
+                <span class="main-name">Refrigeración GATO</span>
+                <span class="main-namesito">Tecnología que enfría y perdura</span>
+            </div>
+        </a>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-home" title="Inicio"></i></a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="fotogaleria.html">Fotogaleria</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="index.html#section-form">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- JavaScript donde se captura la parte de arriba de la pagina: header-->
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("nav");
+            header.classList.toggle("abajo", window.scrollY>0);
+        })
+    </script>    
+
+    <!-- Zona central de la primer pagina -->
+    <section id="zona1">
+        <div class="presentacion">
+            <div class="card-pres text">
+                <h3>Refrigeración GATO</h3>
+                <h1>Servicios, herramientas y respuestos de refrigeración</h1>
+                <p>Nos dedicamos a ofrecer confianza, excelencia y resultados 
+                    garantizados para hogares y empresas, asegurando que disfrutes de espacios 
+                    impecables sin preocupaciones.
+                </p>
+                <a class="btn-contacto" href="#section-nosotros">Ver nosotros</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- nosotros -->
+    <section id="section-nosotros">
+        <h2 class="title-nosotros">Nosotros</h2>
+
+        <div class="container-nosotros">
+            <div class="container-group">
+                <p class="descripcion">Como propietarios de una casa y de una empresa, sabemos que 
+                    tienes una lista de tareas interminable cada día. Mantener 
+                    tus espacios limpios e impecables no debería ser algo que 
+                    tengas que manejar por tu cuenta, y mucho menos convertirse 
+                    en tu segundo trabajo. <span>La vida es demasiado corta para pasarla 
+                    limpiando.</span>
+                </p>
+            </div>
+
+            <div class="container-group">
+                <p class="descripcion">Y no podemos estar más de acuerdo.
+                </p>
+            </div>
+
+            <div class="container-group">
+                <p class="descripcion">En <strong>Todo Limpio</strong> hemos ayudado a miles de propietarios de viviendas, 
+                    comercios y empresas a disfrutar de espacios relucientes, con la 
+                    compañía de un servicio de atención inmejorable.
+                </p>
+            </div>
+
+            <div class="container-group">
+                <p class="descripcion">Fundamos nuestra empresa en 2020, desde ese momento nos expandimos 
+                    sobre una base de confianza, honestidad y excelencia en todos nuestros 
+                    servicios.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container-nosotros">
+            <div class="container-group">
+                <p class="descripcion">Por ello, nuestro mayor compromiso es preservar la limpieza y la belleza 
+                    de tus espacios, para que puedas dedicar tu tiempo a lo que verdaderamente 
+                    importa para ti.
+                </p>
+            </div>
+
+            <div class="container-group">
+                <p class="descripcion">El proceso para empezar es muy simple: una vez que recibamos tu 
+                    <a href="index.html#section-form">solicitud de presupuesto</a>, 
+                    te llamaremos dentro de los 30 minutos con algunas preguntas 
+                    y enviaremos un presupuesto personalizado inmediatamente después de la llamada. 
+                    Sólo debes aceptarlo y ¡agendar tu próxima limpieza!.
+                </p>
+            </div>
+
+            <div class="container-group">
+                <p class="descripcion">¡Estamos muy ilusionados de conocerte!.
+                </p>
+            </div>
+
+            <div class="container-group container-firma">
+                <p class="descripcion firma">¡ El Equipo de Todo Limpio !.
+                </p>
+            </div>
+
+        </div>
+     </section>
+
+
+    <!-- ********* Seccion de footer ******** -->
+<footer class="footer-container">
+        <div class="container-box">
+
+            <div class="box-footer">
+                <h3 class="title-box">Atención</h3>
+                <div class="container-atencion">
+                    <div class="hora1">
+                        <p class="dias">Lunes a viernes:</p>
+                        <p class="horas">08:00 hs a 16:00 hs</p>
+                    </div>
+                    <div class="hora2">
+                        <p class="dias">Sábados:</p>
+                        <p class="horas">08:00 hs a 12:00 hs</p>                
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <h3 class="title-box">Sociales</h3>
+                <div class="sociales">
+                    <a href="https:" target="_blank" title="Ir a Twitter">
+                        <img class="linkedin" src="./img/twitter.png" alt="Twitter"> Twitter
+                    </a>
+                    <a href="https:" target="_blank" title="Ir a Instagram">
+                        <img class="github" src="./img/instagram.png" alt="Instagram"> Instagram
+                    </a>
+                    <a href="https:" target="_blank" title="Ir a Facebook">
+                        <img class="facebook" src="./img/facebook.png" alt="Facebook"> Facebook
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+543487616158&text=Hola%2C%20me%20gustaría%20realizar%20una%20página%20web...%20podrías%20contarme?" target="_blank" title="Ir a Whatsapp">
+                        <img class="whatsapp" src="./img/Whatsapp.png" alt="Whatsapp">Whatsapp
+                    </a>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <h3 class="title-box">Otros datos</h3>
+                <div class="otros-datos">
+                    <a href="mailto:jle36@hotmail.com?subject=Consulta&body=Hola%2C%20quisiera%20más%20información%20sobre%20...">
+                        <i class="fa fa-envelope" aria-hidden="true"></i></i>
+                    Email</a>
+                    <p class="telefono"><i class="fa fa-phone" aria-hidden="true"></i> +xx-xx-xxxxxxxx</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- ******** Copyright ******** -->
+        <div class="copy">
+            <div class="credito-terminos">
+                <a class="credito" href="disenador.html">Crédito</a>
+                <a class="terminos" href="terminos.html">Términos y condiciones</a>
+            </div>
+            
+            <!-- <p class="copyright">&copy; <span id="copyright-year"></span> Administración Bourguet - Todos los derechos reservados - Espinola José Luis</p> -->
+            <p class="copyright">&copy; <span id="copyright-year"></span> 
+                Refrigeración- Todos los derechos reservados - 
+                <a href="https://portafoliojoseluis.netlify.app/" target="_blank">Espinola José Luis</a>
+            </p>
+
+            <script>
+                const currentYear = new Date().getFullYear();
+                document.getElementById('copyright-year').textContent = currentYear;
+            </script>
+         </div>
+    </footer>
+
+    <script src="/js/menu.js"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymcus">
+    </script>
+    <script src="/js/scrollreveal.js"></script>
+</body>
+</html>

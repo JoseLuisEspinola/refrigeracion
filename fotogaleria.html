@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="Imagen/jpg" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/fotogaleria.css">
+    <title>Refrigeración</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Incluir la biblioteca de ScrollReveal --> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!-- Barra de navegacion o NavBar -->
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="./img/logo-removebg-preview.png" class="logo" alt="Imagen Logo">
+            <div class="names">
+                <span class="main-name">Refrigeración GATO</span>
+                <span class="main-namesito">Tecnología que enfría y perdura</span>
+            </div>
+        </a>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-home" title="Inicio"></i></a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="#">Fotogaleria</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="index.html#section-form">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- JavaScript donde se captura la parte de arriba de la pagina: header-->
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("nav");
+            header.classList.toggle("abajo", window.scrollY>0);
+        })
+    </script>    
+
+    <!-- Zona central de la primer pagina -->
+    <section id="zona1">
+        <div class="presentacion">
+            <div class="card-pres text">
+                <h3>Refrigeración GATO</h3>
+                <h1>Servicios, herramientas y respuestos de refrigeración</h1>
+                <p>Somos especialistas en sistemas de refrigeración en la ciudad de Pilar y la zona norte. 
+                    Descubre en nuestra galería de fotos cómo renovamos y optimizamos equipos, cámaras y 
+                    sistemas de frío, devolviéndoles su máximo rendimiento y apariencia impecable. ¡Comprobá 
+                    la calidad y eficacia de nuestro trabajo!
+                </p>
+                <a class="btn-contacto" href="#container-gallery">Ver Fotogalería</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Galerias -->
+    <section id="container-gallery">
+        <h2 class="title-gallery">Fotogalería</h2>
+        <div class="container-img">
+            <img src="/img/imagen1.jpg" alt="imagen1">
+            <img src="/img/imagen2.jpg" alt="imagen2">
+            <img src="/img/imagen3.jpg" alt="imagen3">
+            <img src="/img/imagen4.jpg" alt="imagen4">
+            <img src="/img/imagen5.jpg" alt="imagen5">
+            <img src="/img/imagen6.jpg" alt="imagen6">
+            <img src="/img/imagen7.jpg" alt="imagen7">
+            <img src="/img/imagen8.jpg" alt="imagen8">
+            <img src="/img/imagen9.jpg" alt="imagen9">
+            <img src="/img/imagen10.jpg" alt="imagen10">
+            <img src="/img/imagen11.jpg" alt="imagen11">
+            <img src="/img/imagen12.jpg" alt="imagen12">
+            <img src="/img/imagen13.jpg" alt="imagen13">
+            <img src="/img/imagen14.jpg" alt="imagen14">
+            <img src="/img/imagen15.jpg" alt="imagen15">
+
+            <img src="/img/imagen1.jpg" alt="imagen1">
+            <img src="/img/imagen2.jpg" alt="imagen2">
+            <img src="/img/imagen3.jpg" alt="imagen3">
+            <img src="/img/imagen4.jpg" alt="imagen4">
+            <img src="/img/imagen5.jpg" alt="imagen5">
+            <img src="/img/imagen6.jpg" alt="imagen6">
+            <img src="/img/imagen7.jpg" alt="imagen7">
+            <img src="/img/imagen8.jpg" alt="imagen8">
+            <img src="/img/imagen9.jpg" alt="imagen9">
+            <img src="/img/imagen10.jpg" alt="imagen10">
+            <img src="/img/imagen11.jpg" alt="imagen11">
+            <img src="/img/imagen12.jpg" alt="imagen12">
+            <img src="/img/imagen13.jpg" alt="imagen13">
+            <img src="/img/imagen14.jpg" alt="imagen14">
+            <img src="/img/imagen15.jpg" alt="imagen15">
+
+            <img src="/img/imagen10.jpg" alt="imagen1">
+        </div>
+    </section>
+
+    <!-- ********* Seccion de footer ******** -->
+    <footer class="footer-container">
+        <div class="container-box">
+
+            <div class="box-footer">
+                <h3 class="title-box">Atención</h3>
+                <div class="container-atencion">
+                    <div class="hora1">
+                        <p class="dias">Lunes a viernes:</p>
+                        <p class="horas">08:00 hs a 16:00 hs</p>
+                    </div>
+                    <div class="hora2">
+                        <p class="dias">Sábados:</p>
+                        <p class="horas">08:00 hs a 12:00 hs</p>                
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <h3 class="title-box">Sociales</h3>
+                <div class="sociales">
+                    <a href="https:" target="_blank" title="Ir a Twitter">
+                        <img class="linkedin" src="./img/twitter.png" alt="Twitter"> Twitter
+                    </a>
+                    <a href="https:" target="_blank" title="Ir a Instagram">
+                        <img class="github" src="./img/instagram.png" alt="Instagram"> Instagram
+                    </a>
+                    <a href="https:" target="_blank" title="Ir a Facebook">
+                        <img class="facebook" src="./img/facebook.png" alt="Facebook"> Facebook
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+543487616158&text=Hola%2C%20me%20gustaría%20realizar%20una%20página%20web...%20podrías%20contarme?" target="_blank" title="Ir a Whatsapp">
+                        <img class="whatsapp" src="./img/Whatsapp.png" alt="Whatsapp">Whatsapp
+                    </a>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <h3 class="title-box">Otros datos</h3>
+                <div class="otros-datos">
+                    <a href="mailto:jle36@hotmail.com?subject=Consulta&body=Hola%2C%20quisiera%20más%20información%20sobre%20...">
+                        <i class="fa fa-envelope" aria-hidden="true"></i></i>
+                    Email</a>
+                    <p class="telefono"><i class="fa fa-phone" aria-hidden="true"></i> +xx-xx-xxxxxxxx</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- ******** Copyright ******** -->
+        <div class="copy">
+            <div class="credito-terminos">
+                <a class="credito" href="disenador.html">Crédito</a>
+                <a class="terminos" href="terminos.html">Términos y condiciones</a>
+            </div>
+            
+            <!-- <p class="copyright">&copy; <span id="copyright-year"></span> Administración Bourguet - Todos los derechos reservados - Espinola José Luis</p> -->
+            <p class="copyright">&copy; <span id="copyright-year"></span> 
+                Refrigeración - Todos los derechos reservados - 
+                <a href="https://portafoliojoseluis.netlify.app/" target="_blank">Espinola José Luis</a>
+            </p>
+
+            <script>
+                const currentYear = new Date().getFullYear();
+                document.getElementById('copyright-year').textContent = currentYear;
+            </script>
+         </div>
+    </footer>
+
+    <script src="/js/menu.js"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymcus">
+    </script>
+    <script src="/js/scrollreveal.js"></script>
+</body>
+</html>

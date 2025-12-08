@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="Imagen/jpg" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Refrigeracion</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Incluir la biblioteca de ScrollReveal --> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!-- Barra de navegacion o NavBar -->
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="./img/logo-removebg-preview.png" class="logo" alt="Imagen Logo">
+            <div class="names">
+                <span class="main-name">Refrigeración GATO</span>
+                <span class="main-namesito">Tecnología que enfría y perdura</span>
+            </div>
+        </a>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-home" title="Inicio"></i></a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="fotogaleria.html">Fotogaleria</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="#section-form">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- JavaScript donde se captura la parte de arriba de la pagina: header-->
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("nav");
+            header.classList.toggle("abajo", window.scrollY>0);
+        })
+    </script>    
+
+    <!-- Zona central de la primer pagina -->
+    <section id="zona1">
+        <div class="presentacion">
+            <div class="card-pres text">
+                <h3>Refrigeración GATO</h3>
+                <h1>Servicios, herramientas y respuestos de refrigeración</h1>
+                <p>Innovación que transforma la manera de enfriar.</p>
+                <a class="btn-contacto" href="#section-form">Contacto</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Servicios -->
+    <section class="section-servicios">
+        <h2 class="title-service">Detalles</h2>
+        <div class="card">
+            <div class="card-text">
+                <h2>Limpieza de calidad</h2>
+                <p>En Refigeración GATO nos especializamos en la limpieza de unidades interiores 
+                    de aire acondicionado, utilizando métodos y productos de alta calidad 
+                    para garantizar un funcionamiento óptimo y un ambiente saludable. Eliminamos 
+                    polvo, bacterias y suciedad acumulada en los filtros y componentes internos, 
+                    dejando tu equipo impecable y mejorando la calidad del aire que respiras.</p>
+                <div class="lista1">
+                    <p>> Limpieza de filtros</p>
+                    <p>> Lavado de los mismos</p>
+                    <p>> Limpieza de rodillo</p>
+                </div>
+                <a href="servicios.html">Todos los servicios <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="card-image">
+                <img src="/img/imagen1.jpg" alt="detalle-limpieza-exterior">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-text">
+                <h2>Limpieza sin límites</h2>
+                <p>En Refigeración GATO somos especialistas en la revisión y limpieza de cañerías exteriores 
+                    industriales en Pilar y zona norte. Nuestro equipo altamente calificado utiliza 
+                    técnicas avanzadas y productos de alta calidad para garantizar el flujo óptimo y la 
+                    seguridad de tus instalaciones.
+                    Nos ocupamos de eliminar obstrucciones, residuos y acumulaciones que puedan afectar 
+                    el rendimiento de las cañerías, asegurando su durabilidad y un funcionamiento eficiente. 
+                    Confía en nosotros para mantener la infraestructura de tu industria en perfectas condiciones 
+                    y evitar problemas futuros.</p>
+                <div class="lista1">
+                    <p>> Movilidad necesaria</p>
+                    <p>> Máquinas de calidad</p>
+                    <p>> Servicio en tiempo y forma</p>
+                </div>
+                <a href="fotogaleria.html">Nuestro trabajo <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="card-image">
+                <img src="/img/imagen4.jpg" alt="detalle-limpieza-sin-limites">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pequeña galeria -->
+    <section class="section-galeria">
+        <div class="container-galeria">
+            <div class="card-galeria">
+                <img src="/img/imagen2.jpg" alt="Imagen 2" class="imagen">
+            </div>
+            <div class="card-galeria">
+                <img src="/img/imagen3.jpg" alt="Imagen 3" class="imagen">
+            </div>
+            <div class="card-galeria">
+                <img src="/img/imagen4.jpg" alt="Imagen 4" class="imagen">
+            </div>
+            <div class="card-galeria">
+                <img src="/img/imagen5.jpg" alt="Imagen 5" class="imagen">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section RENUEVA -->
+    <section class="section-renueva">
+        <h2>Trabajando</h2>
+        <div class="container-renueva">
+            <img src="/img/imagen7.jpg" class="galeria-img1" alt="galeria Img1">
+            <img src="/img/imagen6.jpg" class="galeria-img2" alt="galeria Img1">
+            <img src="/img/imagen8.jpg" class="galeria-img3" alt="galeria Img1">
+            <img src="/img/imagen9.jpg" class="galeria-img4" alt="galeria Img1">
+        </div>
+        <a href="/fotogaleria.html#container-gallery" class="btn-renueva">Fotogalería</a>
+    </section>
+
+
+    <!-- Preguntas frecuentes -->
+    <section class="questions container" id="questions_id">
+        <h2 class="titulo-preguntas">Preguntas frecuentes</h2>
+        <p class="questions_paragraph">Estas son algunas de las preguntas más 
+            frecuentes que nos hacen sobre nuestro servicio.</p>
+
+        <section class="questions_container">
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿Por qué es importante limpiar las cañerías exteriores industriales?
+                        <span class="questions_arrow">
+                            <img src="/img/arrow.svg" class="questions_img">
+                        </span>
+                    </h3>
+
+                    <p class="questions_show">La limpieza regular evita obstrucciones, acumulación de residuos y 
+                        corrosión, garantizando un flujo constante y seguro en las instalaciones. Además, ayuda 
+                        a prolongar la vida útil de la infraestructura.</p>
+                </div>
+            </article>
+
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿Cada cuánto tiempo se recomienda realizar la limpieza?
+
+                        <span class="questions_arrow">
+                            <img src="/img/arrow.svg" class="questions_img">
+                        </span>
+                    </h3>
+
+                    <p class="questions_show">La frecuencia depende del tipo de industria y del nivel de 
+                        uso. En general, se recomienda una revisión preventiva al menos una vez al año, 
+                        aunque en entornos de alta exigencia puede ser necesario hacerlo con mayor regularidad.</p>
+                </div>
+            </article>
+
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿Qué métodos utilizan para la limpieza de cañerías?
+                        <span class="questions_arrow">
+                            <img src="/img/arrow.svg" class="questions_img">
+                        </span>
+                    </h3>
+
+                    <p class="questions_show">Empleamos técnicas avanzadas como limpieza con agua a presión, sistemas 
+                        mecánicos especializados y productos de alta calidad que eliminan residuos sin dañar las 
+                        uperficies ni afectar el medio ambiente.</p>
+                </div>
+            </article>
+
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿El servicio interrumpe las operaciones de la planta?
+                        <span class="questions_arrow">
+                            <img src="/img/arrow.svg" class="questions_img">
+                        </span>
+                    </h3>
+
+                    <p class="questions_show">Nuestro equipo planifica la limpieza de manera eficiente para minimizar 
+                        cualquier impacto en la producción. En muchos casos, se puede coordinar fuera de horarios 
+                        críticos para evitar interrupciones.</p>
+                </div>
+            </article>
+
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿Qué beneficios obtengo al contratar un servicio profesional en lugar de hacerlo internamente?
+                        <span class="questions_arrow">
+                            <img src="/img/arrow.svg" class="questions_img">
+                        </span>
+                    </h3>
+
+                    <p class="questions_show">Un servicio especializado asegura resultados más efectivos, cumplimiento de 
+                        normas de seguridad industrial y prevención de problemas futuros. Además, reduce riesgos para el 
+                        personal interno y optimiza costos de mantenimiento.</p>
+                </div>
+            </article>
+
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿En qué zonas ofrecen el servicio?
+                        <span class="questions_arrow">
+                            <img src="/img/arrow.svg" class="questions_img">
+                        </span>
+                    </h3>
+
+                    <p class="questions_show">Estamos ubicados en Pilar y cubrimos toda la zona norte, brindando atención 
+                        rápida y profesional a industrias de diferentes rubros.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="questions_offer">
+            <h2 class="subtitle2">¡Deja a tus aparatos espléndido y limpio!, ¿Estás Listo 
+                                para empezar?</h2>
+            <p class="questions_copy">En nuestra empresa de refrigeración, te ofrecemos la oportunidad de optimizar
+            tus instalaciones con sistemas eficientes y confiables. Nos especializamos en aplicar las técnicas más
+            avanzadas y efectivas para el mantenimiento de equipos industriales de climatización, siempre siguiendo las últimas
+            normativas y estándares del sector. Nuestro equipo trabaja en un entorno dinámico y profesional, garantizando
+            resultados excepcionales. Prepárate para disfrutar de un ambiente controlado, seguro y productivo,
+            con el respaldo de expertos en el arte de mantener sistemas de refrigeración impecables. ¡Confía en nosotros para
+            dar el primer paso hacia un espacio renovado y eficient.</p>
+            <a href="precios.html" class="btn-aprende">¡Comencemos!</a>
+        </section>
+    </section>
+
+
+    <!-- ********** FORMULARIO ********** -->
+    <section id="section-form">
+        <h2 class="titulo-form">Contacto</h2>
+
+        <div class="container-maps_form">
+            
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4125.233774464203!2d-58.90830704526535!3d-34.45453235870867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cdaff91a60b%3A0x210325890b9d4d43!2sJuan%20B.%20Justo%20%26%2025%20de%20Mayo%2C%20B1629%20Pilar%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1741993290975!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        
+            <form id="form-contacto" action="https://formspree.io/f/mvgperpl" method="POST">
+                <p class="anotate">¿Necesitas <abbr title="attribute">comunicarte</abbr> con nosotros?</p>
+                <input id="nombre" class="nombre" type="text" name="nombre" placeholder="Nombres *">
+
+                <input id="telefono" type="tel" name="telefono" placeholder="Telefono *">
+
+                <input id="email" class="email" type="email" name="email" placeholder="Correo *">
+
+                <textarea id="mensaje" name="mensaje" placeholder="Escriba aquí su mensaje *"></textarea>
+
+                <div class="aceptar">
+                    <label for="check-priv" class="text-priv">
+                        <input type="checkbox" id="check-priv" required>
+                        Acepto se envíen mis datos
+                    </label>
+                </div>
+                <div class="botones">
+                    <input type="submit" class="btn btn-grabar" title="Enviar el formulario" value="Enviar">
+                    <input type="reset" class="btn btn-limpiar" title="Limpia los campos" value="Limpiar">
+                </div>
+            </form>
+            
+        </div>
+    </section>
+
+
+    <!-- ********* Seccion de footer ******** -->
+    <footer class="footer-container">
+        <div class="container-box">
+
+            <div class="box-footer">
+                <h3 class="title-box">Atención</h3>
+                <div class="container-atencion">
+                    <div class="hora1">
+                        <p class="dias">Lunes a viernes:</p>
+                        <p class="horas">08:00 hs a 16:00 hs</p>
+                    </div>
+                    <div class="hora2">
+                        <p class="dias">Sábados:</p>
+                        <p class="horas">08:00 hs a 12:00 hs</p>                
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <h3 class="title-box">Sociales</h3>
+                <div class="sociales">
+                    <a href="https:" target="_blank" title="Ir a Twitter">
+                        <img class="linkedin" src="./img/twitter.png" alt="Twitter"> Twitter
+                    </a>
+                    <a href="https:" target="_blank" title="Ir a Instagram">
+                        <img class="github" src="./img/instagram.png" alt="Instagram"> Instagram
+                    </a>
+                    <a href="https:" target="_blank" title="Ir a Facebook">
+                        <img class="facebook" src="./img/facebook.png" alt="Facebook"> Facebook
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+543487616158&text=Hola%2C%20me%20gustaría%20realizar%20una%20página%20web...%20podrías%20contarme?" target="_blank" title="Ir a Whatsapp">
+                        <img class="whatsapp" src="./img/Whatsapp.png" alt="Whatsapp">Whatsapp
+                    </a>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <h3 class="title-box">Otros datos</h3>
+                <div class="otros-datos">
+                    <a href="mailto:jle36@hotmail.com?subject=Consulta&body=Hola%2C%20quisiera%20más%20información%20sobre%20...">
+                        <i class="fa fa-envelope" aria-hidden="true"></i></i>
+                    Email</a>
+                    <p class="telefono"><i class="fa fa-phone" aria-hidden="true"></i> +xx-xx-xxxxxxxx</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- ******** Copyright ******** -->
+        <div class="copy">
+            <div class="credito-terminos">
+                <a class="credito" href="disenador.html">Crédito</a>
+                <a class="terminos" href="terminos.html">Términos y condiciones</a>
+            </div>
+            
+            <!-- <p class="copyright">&copy; <span id="copyright-year"></span> Administración Bourguet - Todos los derechos reservados - Espinola José Luis</p> -->
+            <p class="copyright">&copy; <span id="copyright-year"></span> 
+                Refrigeración - Todos los derechos reservados - 
+                <a href="https://portafoliojoseluis.netlify.app/" target="_blank">Espinola José Luis</a>
+            </p>
+
+            <script>
+                const currentYear = new Date().getFullYear();
+                document.getElementById('copyright-year').textContent = currentYear;
+            </script>
+         </div>
+    </footer>
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/preguntas.js"></script>
+    <script src="/js/valid-contacto.js"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymcus">
+    </script>
+    <script src="/js/scrollreveal.js"></script>
+</body>
+</html>

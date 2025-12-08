@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .typewriter {
+            display: inline-block;
+            overflow: hidden;
+            border-right: 2px solid black;
+            white-space: nowrap;
+        }
+
+        .text {
+            display: inline-block;
+            font-size: 50px; /* Cambiá libremente */
+            width: 10ch;     /* 10 caracteres */
+            animation: typeCycle 6s steps(10) infinite;
+        }
+
+        /* Ciclo completo: escribir → pausa → borrar */
+        @keyframes typeCycle {
+            0%   { width: 0ch; }       /* Inicio */
+            33%  { width: 10ch; }      /* Escribe */
+            66%  { width: 10ch; }      /* Pausa */
+            100% { width: 0ch; }       /* Borra */
+        }
+    </style>
+</head>
+<body>
+    <div class="typewriter">
+        <span class="text">Hola mundo</span>
+    </div>
+</body>
+</html>
