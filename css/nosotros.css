@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 :root {
     --color01: #222222;
@@ -309,7 +309,7 @@ nav.abajo .checkbtn {
 }
 
 .firma {
-    font-family: "Marck Script", cursive;
+    font-family: "Play", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: clamp(1.4rem, 3vw, 1.8rem);
@@ -317,14 +317,14 @@ nav.abajo .checkbtn {
 
     /* efecto de escribir */
     display: inline-block;
-    width: 29ch;     /* 10 caracteres */
-    animation: typeCycle 18s steps(29) infinite;
+    width: 26ch;     /* 10 caracteres */
+    animation: typeCycle 14s steps(26) infinite;
 }
 
 @keyframes typeCycle {
     0%   { width: 0ch; }       /* Inicio */
-    33%  { width: 29ch; }      /* Escribe */
-    66%  { width: 29ch; }      /* Pausa */
+    33%  { width: 26ch; }      /* Escribe */
+    66%  { width: 26ch; }      /* Pausa */
     100% { width: 0ch; }       /* Borra */
 }
 
