@@ -239,7 +239,7 @@ nav.abajo .checkbtn {
     text-align: center;
 }
 
-.btn-contacto {
+.btn-precios {
     padding: 8px 30px;
     border: none;
     font-size: clamp(0.9rem, 1.2vw, 1.25rem);
@@ -249,7 +249,7 @@ nav.abajo .checkbtn {
     transition: 0.5s;
 }
 
-.btn-contacto:hover {
+.btn-precios:hover {
     background-color: var(--color03);
 }
 

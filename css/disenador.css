@@ -338,10 +338,11 @@ div.contanier-nombres {
     display: inline-block;
     width: 57px;
     height: 26px;
-    background-color: grey;
+    background-color: red;
     border-radius: 15px;
     position: relative;
     cursor: pointer;
+    margin-top: 26px;
 }
 
 .btn-sino:before {
@@ -354,9 +355,8 @@ div.contanier-nombres {
     transition: transform 0.5s;
 }
 
-
 .btn-sino.active {
-    background-color: var(--color02);
+    background-color: blue;
 }
 
 .btn-sino.active:before {
@@ -442,8 +442,10 @@ div.contanier-nombres {
     left: 50%;
 }
 
-
-
+.btn2 {
+    background-color: #017773;
+    color: #ffffff;
+}
 /**************************************/
 /* ***** Media Query con 1368px ***** */
 /* ********************************** */

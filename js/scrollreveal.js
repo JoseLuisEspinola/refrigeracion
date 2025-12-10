@@ -1,23 +1,61 @@
 window.sr = ScrollReveal();
 
     /* index.html */
-    sr.reveal('.btn-somos', {
+    sr.reveal('.title-h3', {
         duration: 2000,
-        origin: 'top',
-        distance: '260px',
-        reset: true,
-        viewFactor: 500
-    });
-
-    sr.reveal('.p-quienes-somos', {
-        duration: 2000, 
-        origin: 'bottom', 
+        origin: 'bottom',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
         easing: 'ease-in-out', 
-        delay: 200, 
-        scale: 0.5, 
-        opacity: 0.5, 
+        delay: 160, 
         reset: true, 
         viewFactor: 0.5
+    });
+
+    sr.reveal('.title-h1', {
+        duration: 2000,
+        origin: 'top',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.title-service', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.title-trabajando', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.titulo-preguntas', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.titulo-form', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
     });
 
     sr.reveal('.questions_paragraph', {
@@ -39,7 +77,7 @@ window.sr = ScrollReveal();
     }); 
 
     sr.reveal('.questions_copy', {
-        duration: 2000, 
+        duration: 1600, 
         origin: 'bottom', 
         easing: 'ease-in-out', 
         delay: 200, 
@@ -50,78 +88,169 @@ window.sr = ScrollReveal();
     });
 
 
-    
-    /* galeria.html */
-    sr.reveal('.btn-galeria', {
-        duration: 3000,
-        origin: 'top',
-        distance: '300px',
-        reset: true,
-        viewFactor: 500
-    });
 
 
-
-
-    /* productos.html */
-    sr.reveal('.btn-productos', {
-        duration: 3000,
-        origin: 'top',
-        distance: '300px',
-        reset: true,
-        viewFactor: 500
-    });
-
-
-
-
-    /* promociones.html */
-    sr.reveal('.btn-promocion', {
-        duration: 3000,
-        origin: 'top',
-        distance: '300px',
-        reset: true,
-        viewFactor: 500
-    });
-
-
-
-
-
-    /* cursos.html */
-    sr.reveal('.btn-cursos', {
-        duration: 3000,
-        origin: 'top',
-        distance: '300px',
-        reset: true,
-        viewFactor: 500
-    });
-
-    sr.reveal('.knowledge_paragraph', {
-        duration: 1800, 
-        origin: 'bottom', 
-        distance: '120px',
-        easing: 'ease-in-out',  
+    /* nosotros.html */
+    sr.reveal('.title-h3', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out', 
+        delay: 160, 
         reset: true, 
         viewFactor: 0.5
     });
 
-    /* sr.reveal('.card1', {
-        duration: 1500, 
-        origin: 'right', 
-        distance: '120px',
-        easing: 'ease-in-out',  
+    sr.reveal('.title-h1', {
+        duration: 2000,
+        origin: 'top',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.title-nosotros', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+
+
+
+
+    /* servicios.html */
+    sr.reveal('.title-h3', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out', 
+        delay: 160, 
         reset: true, 
         viewFactor: 0.5
     });
 
-    sr.reveal('.card3', {
-        duration: 1500, 
-        origin: 'left', 
-        distance: '120px',
-        easing: 'ease-in-out',  
+    sr.reveal('.title-h1', {
+        duration: 2000,
+        origin: 'top',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.title-servicios', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+
+
+
+
+
+    /* fotogaleria.html */
+    sr.reveal('.title-h3', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out', 
+        delay: 160, 
         reset: true, 
         viewFactor: 0.5
     });
- */
 
+    sr.reveal('.title-h1', {
+        duration: 2000,
+        origin: 'top',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.title-gallery', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+
+
+
+
+
+    /* precios.html */
+    sr.reveal('.title-h3', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out', 
+        delay: 160, 
+        reset: true, 
+        viewFactor: 0.5
+    });
+
+    sr.reveal('.title-h1', {
+        duration: 2000,
+        origin: 'top',
+        distance: '200px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+    sr.reveal('.title-precios', {
+        duration: 1600,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
+
+
+
+
+
+
+    /* disenador.html */
+    sr.reveal('.title-h1-disenador', {
+        duration: 2000,
+        origin: 'top',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out', 
+        delay: 160, 
+        reset: true, 
+        viewFactor: 0.5
+    });
+
+    sr.reveal('.title-h2-disenador', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '160px',
+        reset: true, 
+        viewFactor: 0.5,
+        easing: 'ease-in-out' 
+    });
