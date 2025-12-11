@@ -247,7 +247,7 @@ nav.abajo .checkbtn {
     transition: 0.5s;
 }
 
-.btn-contacto:hover {
+.btn-contacto1.card-text {
     background-color: var(--color03);
 }
 
