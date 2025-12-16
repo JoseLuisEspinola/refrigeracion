@@ -60,7 +60,7 @@ window.sr = ScrollReveal();
 
     sr.reveal('.questions_paragraph', {
         duration: 1500, 
-        origin: 'bottom', 
+        
         easing: 'ease-in-out', 
         scale: 1.1, 
         reset: true, 
@@ -78,7 +78,7 @@ window.sr = ScrollReveal();
 
     sr.reveal('.questions_copy', {
         duration: 1600, 
-        origin: 'bottom', 
+        
         easing: 'ease-in-out', 
         delay: 200, 
         scale: 0.8, 

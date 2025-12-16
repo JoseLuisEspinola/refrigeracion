@@ -36,7 +36,8 @@ nav {
 }
 
 nav.abajo {
-    box-shadow: 0 0 10px rgba(3, 149, 247, 0.4);
+    box-shadow: 0 0 10px 5px rgba(3, 149, 247, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .enlace {
@@ -117,7 +118,7 @@ nav ul li a {
     font-size: 16px;
     font-weight: 600;
     padding: 0 12px;
-    transition: background 0.5s;
+    transition: 1s;
 }
 
 nav.abajo ul li a {
