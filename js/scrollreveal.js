@@ -86,6 +86,24 @@ window.sr = ScrollReveal();
         reset: true, 
         viewFactor: 0.5
     });
+    
+    sr.reveal('#form-contacto', {
+        duration: 1000, 
+        origin: 'right',
+        distance: '120px',
+        easing: 'ease-in-out', 
+        reset: true, 
+        viewFactor: 0.5
+    });
+
+    sr.reveal('.maps', {
+        duration: 1000, 
+        origin: 'left',
+        distance: '120px',
+        easing: 'ease-in-out', 
+        reset: true, 
+        viewFactor: 0.5
+    });
 
 
 
