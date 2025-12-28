@@ -241,13 +241,37 @@ nav.abajo .checkbtn {
 }
 
 .btn-contacto {
+    display: inline-block;
     padding: 8px 30px;
     border: none;
     font-size: clamp(0.9rem, 1.2vw, 1.25rem);
     background-color: var(--color02);
     color: var(--color04);
-    border-radius: 10px 50px;
+    border-radius: 50px;
     transition: 0.5s;
+    animation: animation_bottom 1s infinite;
+}
+
+@keyframes animation_bottom {
+    0%, 100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 100%;
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    20%, 40%, 60% {
+      transform: rotate(-4deg);
+    }
+    30%, 50%, 70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-2deg);
+    }
+    90% {
+      transform: rotate(2deg);
+    }
 }
 
 .btn-contacto:hover {
@@ -304,9 +328,9 @@ nav.abajo .checkbtn {
 }
 
 .card:hover {
-    /* box-shadow: 0 0 10px 0px #ffffff, -1px -1px 20px 0px #ffffff; */
     box-shadow: 0 0 5px #333333,
                 0 0 10px #333333;
+    transform: translateY(-4px);
 }
 
 .card-img {

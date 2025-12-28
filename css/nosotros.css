@@ -238,16 +238,40 @@ nav.abajo .checkbtn {
     text-shadow: 1px 1px 0px var(--color01);
     margin-bottom: 40px;
     text-align: center;
+    animation: animation_bottom 1s infinite;
 }
 
 .btn-contacto {
+    display: inline-block;
     padding: 8px 30px;
     border: none;
     font-size: clamp(0.9rem, 1.2vw, 1.25rem);
     background-color: var(--color02);
     color: var(--color04);
-    border-radius: 10px 50px;
+    border-radius: 50px;
     transition: 0.5s;
+}
+
+@keyframes animation_bottom {
+    0%, 100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 100%;
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    20%, 40%, 60% {
+      transform: rotate(-4deg);
+    }
+    30%, 50%, 70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-2deg);
+    }
+    90% {
+      transform: rotate(2deg);
+    }
 }
 
 .btn-contacto:hover {
